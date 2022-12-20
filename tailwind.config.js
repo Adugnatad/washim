@@ -16,6 +16,7 @@ module.exports = {
       },
       backgroundImage: {
         'homepage': "url('../public/assets/HomepageBackground.png')",
+        'data': "url('../public/assets/Data.png')",
       }
     },
     plugins: [],

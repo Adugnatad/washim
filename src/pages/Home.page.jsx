@@ -1,8 +1,9 @@
 import React from 'react'
+import { Footer } from '../components'
 
 const Home = () => {
     return (
-        <div className=''>
+        <div className='pt-[85px]'>
             <section className='flex flex-col justify-end text-white bg-homepage h-[600px] py-10 pl-[70px]'>
                 <h1 className='text-[50px] w-[90%] mb-3 font-bold'>Tracking every drop of water <br /> <span className='border-b-[5px] border-b-[#1EB53A]'>and utility investment.</span></h1>
                 <p className='text-[25px] w-[80%]'>WASHIMS is an Innovative smart approach to water and utility management  focused largely on automation, real-time view of hydraulic data and better data management.</p>
@@ -195,7 +196,7 @@ const Home = () => {
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-row items-center justify-between text-white py-5 px-4 bg-[#001626] mt-20'>
+                {/* <div className='flex flex-row items-center justify-between text-white py-5 px-4 bg-[#001626] mt-20'>
                     <div className='ml-7 flex flex-row items-center'>
                         <span className='text-[25px] mr-2'>©</span>
                         2022 WASHIMS. All Rights Reserved
@@ -211,6 +212,9 @@ const Home = () => {
                             <li>CONTACT US</li>
                         </ul>
                     </div>
+                </div> */}
+                <div className='mt-[80px]'>
+                    <Footer />
                 </div>
             </section>
         </div>
