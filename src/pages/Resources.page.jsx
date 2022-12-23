@@ -8,7 +8,7 @@ const Resources = () => {
     return (
         <div>
             <div className='px-20'>
-                <section className='pt-[80px]'>
+                <section>
                     <div className='flex flex-row space-x-2 bg-gradient-to-b from-[#30D44E] to-[#1B882F] text-white py-3 pl-7 my-5 rounded-[10px]'>
                         <img src='/assets/communitiesIconFeature.png' alt='' />
                         <span className='text-[18px]'>COMMUNITY</span>

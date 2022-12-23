@@ -3,7 +3,7 @@ import { Footer } from '../components'
 
 const Data = () => {
     return (
-        <div className='pt-[116px]'>
+        <div>
             <section className='mx-20'>
                 <div className='bg-data h-[334px] font-bold text-[64px] text-white flex flex-row items-end pl-10 pb-5'>
                     DATA
