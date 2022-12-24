@@ -5,6 +5,10 @@ import React, { useState } from 'react';
 
 export const Header = ({ setPage, page }) => {
     const [menuOpen, setMenuOpen] = useState(false);
+    const handlePageClick = (page) => {
+        setPage(page)
+        setMenuOpen(false);
+    }
     return (
         <div className='flex flex-row justify-between items-center w-[100%] bg-primary text-white font-medium p-3 fixed z-10 relative'>
             <span className='flex flex-row items-center'><img src='/assets/WASHIMSLOGO.png' alt='' /> WASHIMS</span>
@@ -24,9 +28,9 @@ export const Header = ({ setPage, page }) => {
                     }
                 </div>
                 {menuOpen && <div className='md:hidden bg-white text-[#000] absolute flex flex-col items-center justify-start top-[100px] right-[30px] px-20 menu w-[90%] '>
-                    <span onClick={() => setPage("Home")} className="mt-3 cursor-pointer hover:bg-primary hover:text-white p-1 w-full flex flex-col items-center">Home</span>
-                    <span onClick={() => setPage("Data")} className="mt-3 cursor-pointer hover:bg-primary hover:text-white p-1 w-full flex flex-col items-center">Data</span>
-                    <span onClick={() => setPage("Resources")} className="mt-3  cursor-pointer hover:bg-primary hover:text-white p-1 w-full flex flex-col items-center">Resources</span>
+                    <span onClick={() => handlePageClick("Home")} className="mt-3 cursor-pointer hover:bg-primary hover:text-white p-1 w-full flex flex-col items-center">Home</span>
+                    <span onClick={() => handlePageClick("Data")} className="mt-3 cursor-pointer hover:bg-primary hover:text-white p-1 w-full flex flex-col items-center">Data</span>
+                    <span onClick={() => handlePageClick("Resources")} className="mt-3  cursor-pointer hover:bg-primary hover:text-white p-1 w-full flex flex-col items-center">Resources</span>
                     <span onClick={() => { }} className="mt-3 mb-3 p-1 px-3 rounded-[10px] text-[#fff] cursor-pointer bg-primary">Login</span>
                     {/* <span>WASHNORM</span> */}
                 </div>}
