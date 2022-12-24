@@ -10,7 +10,7 @@ const Home = () => {
             </section>
 
             <section className='flex flex-col md:flex-row items-center justify-between bg-gradient-to-r  from-[#0082CE] to-[#004172] p-10  md:px-[70px] my-10 mx-10 md:mx-20'>
-                <div className='flex flex-row flex-wrap justify-start w-[354px] mr-5'>
+                <div className='flex flex-row flex-wrap justify-start md:w-[354px] mr-5'>
                     <div className=' flex flex-col items-center justify-center w-fit mb-3 mr-3'>
                         <span className='bg-white rounded-[10px] w-[106px] h-[105px] flex items-center justify-center'>  <img src='/assets/communitiesIcon.png' alt='' /> </span>
                         <span className='text-white text-[12px]'>COMMUNITIES</span>
@@ -196,23 +196,6 @@ const Home = () => {
                         </ul>
                     </div>
                 </div>
-                {/* <div className='flex flex-row items-center justify-between text-white py-5 px-4 bg-[#001626] mt-20'>
-                    <div className='ml-7 flex flex-row items-center'>
-                        <span className='text-[25px] mr-2'>©</span>
-                        2022 WASHIMS. All Rights Reserved
-                    </div>
-                    <div>
-                        <ul className='flex flex-row space-x-2 text-[12px]'>
-                            <li>ABOUT US</li>
-                            <span>|</span>
-                            <li>RESOURCES</li>
-                            <span>|</span>
-                            <li>LEGAL</li>
-                            <span>|</span>
-                            <li>CONTACT US</li>
-                        </ul>
-                    </div>
-                </div> */}
                 <div className='mt-[80px]'>
                     <Footer />
                 </div>
