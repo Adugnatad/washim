@@ -9,8 +9,8 @@ const Home = () => {
                 <p className='w-[80%] text-[20px] md:text-[25px]'>WASHIMS is an Innovative smart approach to water and utility management  focused largely on automation, real-time view of hydraulic data and better data management.</p>
             </section>
 
-            <section className='flex flex-col md:flex-row items-center justify-between bg-gradient-to-r  from-[#0082CE] to-[#004172] p-10  md:px-[70px] my-10 mx-10 md:mx-20'>
-                <div className='flex flex-row flex-wrap justify-start md:w-[354px] mr-5'>
+            <section className='flex flex-col md:flex-row items-center justify-between bg-gradient-to-r  from-[#0082CE] to-[#004172] p-10  md:px-[70px] md:my-10  md:mx-20'>
+                <div className='flex flex-row flex-wrap justify-center md:w-[354px] mr-5'>
                     <div className=' flex flex-col items-center justify-center w-fit mb-3 mr-3'>
                         <span className='bg-white rounded-[10px] w-[106px] h-[105px] flex items-center justify-center'>  <img src='/assets/communitiesIcon.png' alt='' /> </span>
                         <span className='text-white text-[12px]'>COMMUNITIES</span>
