@@ -49,7 +49,7 @@ const Home = () => {
 
             <section className='flex flex-col cu:flex-row items-center justify-center bg-[#F6F6F6] p-0'>
                 <img src="/assets/womanFetchingWater.png" alt="" style={{ width: "500px" }} />
-                <div className='cu:w-[50%] p-[80px] md:p-[100px] '>
+                <div className='cu:w-[50%] p-[80px] px-5 md:p-[100px] '>
                     <h1 className='text-[23px] md:text-[28px] font-bold '>
                         Updated National estimates for WASH
                         in households: the Country is off track for SDG WASH targets
@@ -147,16 +147,16 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className='flex flex-col md:flex-row items-center justify-around bg-gradient-to-r  from-[#0082CE] to-[#004172] py-10 px-15'>
+            <section className='flex flex-col md:flex-row items-center justify-between bg-gradient-to-r  from-[#0082CE] to-[#004172] py-10 px-10'>
                 <div className='w-[80%] mb-5 md:mb-0 md:w-[30%] text-white font-medium text-[19px] md:text-[24px]'>
                     Subscribe to our mailing list and get
                     access to updated data directly into your
                     inbox.
                 </div>
-                <div className='flex flex-row items-center justify-center'>
+                <div className='flex flex-row items-center justify-center mx-2 w-[90%] md:w-[30%]'>
                     <img src='/assets/searchIcon.png' alt='' className='bg-white p-3 pl-4 h-[50px]' />
-                    <input type='text' placeholder="Search WASHIMS DATA" className="p-3 h-[50px] w-[90%] text-[15px] outline-0" />
-                    <button className='h-[50px] bg-gradient-to-b from-[#23C641] to-[#1B882F] text-white p-3'>SUBSCRIBE</button>
+                    <input type='text' placeholder="Search WASHIMS DATA" className="p-3 h-[50px] text-[15px] outline-0" />
+                    <button className='h-[50px] bg-gradient-to-b from-[#23C641] to-[#1B882F] text-white  px-1 md:px-5'>SUBSCRIBE</button>
                 </div>
             </section>
 

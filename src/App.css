@@ -5,3 +5,11 @@
 .menu {
     box-shadow: 0 0 5px #ddd;
 }
+
+.select {
+    appearance: none;
+    background-image: url("/public/assets/dropDownIcon.svg");
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 15px;
+}

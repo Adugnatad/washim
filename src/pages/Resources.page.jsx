@@ -20,52 +20,19 @@ const Resources = () => {
                             backgroundRepeat: "no-repeat",
                             backgroundSize: "cover",
                             fontWeight: 700,
-                            fontSize: "64px",
                             height: "334px",
                             width: "100%",
                         }}>
-                        <span className='text-white'>RESOURCES</span>
+                        <span className='text-white text-[30px] md:text-[64px]'>RESOURCES</span>
                     </div>
                     <div className='space-x-3  mb-5 mt-10'>
-                        <Menu>
-                            <MenuButton as={Button} rightIcon={<MdKeyboardArrowDown />}
-                                className="bg-[#D9D9D9] p-2 rounded-lg mt-5 text-[18px] w-[304px] text-start">
-                                <span className="ml-2"> Publication Date </span>
-                            </MenuButton>
-                            <MenuList className='bg-[#D9D9D9] w-[304px] flex flex-col space-y-1 px-2 py-1'>
-                                <MenuItem>Download</MenuItem>
-                                <MenuItem>Create a Copy</MenuItem>
-                                <MenuItem>Mark as Draft</MenuItem>
-                                <MenuItem>Delete</MenuItem>
-                                <MenuItem>Attend a Workshop</MenuItem>
-                            </MenuList>
-                        </Menu>
-                        <Menu>
-                            <MenuButton as={Button} rightIcon={<MdKeyboardArrowDown />}
-                                className="bg-[#D9D9D9] p-2 rounded-lg mt-5 text-[18px] w-[304px] text-start">
-                                <span className="ml-2"> Monitoring Category </span>
-                            </MenuButton>
-                            <MenuList className='bg-[#D9D9D9] w-[304px] flex flex-col space-y-1 px-2 py-1'>
-                                <MenuItem>Download</MenuItem>
-                                <MenuItem>Create a Copy</MenuItem>
-                                <MenuItem>Mark as Draft</MenuItem>
-                                <MenuItem>Delete</MenuItem>
-                                <MenuItem>Attend a Workshop</MenuItem>
-                            </MenuList>
-                        </Menu>
-                        <Menu>
-                            <MenuButton as={Button} rightIcon={<MdKeyboardArrowDown />}
-                                className="bg-[#D9D9D9] p-2 rounded-lg mt-5 text-[18px] w-[304px] text-start">
-                                <span className="ml-2"> Report Type </span>
-                            </MenuButton>
-                            <MenuList className='bg-[#D9D9D9] w-[304px] flex flex-col space-y-1 px-2 py-1'>
-                                <MenuItem>Download</MenuItem>
-                                <MenuItem>Create a Copy</MenuItem>
-                                <MenuItem>Mark as Draft</MenuItem>
-                                <MenuItem>Delete</MenuItem>
-                                <MenuItem>Attend a Workshop</MenuItem>
-                            </MenuList>
-                        </Menu>
+                        <select placeholder='Publication Date' className='bg-[#D9D9D9] p-2 px-3 w-[304px] rounded-[10px] select outline-0'>
+                            <option value="" disabled selected hidden>Publication Date</option>
+                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
+                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
+                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
+                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
+                        </select>
                     </div>
                 </section>
 
