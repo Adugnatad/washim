@@ -148,7 +148,7 @@ const Home = () => {
             </section>
 
             <section className='flex flex-col md:flex-row items-center justify-around bg-gradient-to-r  from-[#0082CE] to-[#004172] py-10 px-15'>
-                <div className='w-[80%] mb-5 md:mb-0 md:w-[30%] text-white font-medium text-[24px]'>
+                <div className='w-[80%] mb-5 md:mb-0 md:w-[30%] text-white font-medium text-[19px] md:text-[24px]'>
                     Subscribe to our mailing list and get
                     access to updated data directly into your
                     inbox.
@@ -163,7 +163,7 @@ const Home = () => {
             <section className='bg-[#003256] md:px-20  pb-10 text-white '>
                 <div className='bg-[#799DB2] p-10 flex flex-row flex-wrap space-y-4 space-x-1 items-start justify-between'>
                     <div className='flex flex-col items-start'>
-                        <span className='font-bold text-[22px]'> DATA</span>
+                        <span className='font-bold text-[19px] md:text-[22px]'> DATA</span>
                         <ul className='list-disc ml-6 text-[15px] font-medium'>
                             <li>Communities</li>
                             <li>Water Points</li>
@@ -174,7 +174,7 @@ const Home = () => {
                         </ul>
                     </div>
                     <div className='flex flex-col items-start'>
-                        <span className='font-bold text-[22px]'> RESOURCES</span>
+                        <span className='font-bold text-[19px] md:text-[22px]'> RESOURCES</span>
                         <ul className='list-disc ml-6 text-[15px] font-medium'>
                             <li>Publications</li>
                             <li>Videos</li>
@@ -182,14 +182,14 @@ const Home = () => {
                         </ul>
                     </div>
                     <div className='flex flex-col items-start'>
-                        <span className='font-bold text-[22px]'> LAMs</span>
+                        <span className='font-bold text-[19px] md:text-[22px]'> LAMs</span>
                         <ul className='list-disc ml-6 text-[15px] font-medium'>
                             <li>LAMs Directory</li>
                             <li>LAMs Distribution</li>
                         </ul>
                     </div>
                     <div className='flex flex-col items-start'>
-                        <span className='font-bold text-[22px] break-all'> APPLICATIONS/DASHBOARD</span>
+                        <span className='font-bold text-[19px] md:text-[22px] break-all'> APPLICATIONS/DASHBOARD</span>
                         <ul className='list-disc ml-6 text-[15px] font-medium'>
                             <li>WASHNorm</li>
                             <li>Trends Analysis</li>
