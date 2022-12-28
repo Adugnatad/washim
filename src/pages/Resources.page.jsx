@@ -5,6 +5,57 @@ import { AiOutlineDoubleRight, AiOutlineDoubleLeft } from "react-icons/ai"
 import { Footer } from '../components'
 
 const Resources = () => {
+
+    const data = [
+        {
+            backgroundImage: "url('/assets/Feature1.png')",
+            title: 'Drinking water and hygiene in Africa',
+        },
+        {
+            backgroundImage: "url('/assets/Feature2.png')",
+            title: 'Training on drinking water, sanitation and hygiene in Africa',
+        },
+        {
+            backgroundImage: "url('/assets/Feature3.png')",
+            title: 'Progress on drinking water, sanitation and hygiene in Africa',
+        },
+        {
+            backgroundImage: "url('/assets/Feature4.png')",
+            title: 'Water, sanitation and hygiene in Africa',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 14.png')",
+            title: 'Drinking water and hygiene in Africa',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 15.png')",
+            title: 'Training on drinking water, sanitation and hygiene in Africa ',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 16.png')",
+            title: 'Progress on drinking water, sanitation and hygiene in Africa ',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 17.png')",
+            title: 'Water, sanitation and hygiene in Africa',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 14 (1).png')",
+            title: 'Drinking water and hygiene in Africa',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 15 (1).png')",
+            title: 'Training on drinking water, sanitation and hygiene in Africa ',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 16 (1).png')",
+            title: 'Progress on drinking water, sanitation and hygiene in Africa ',
+        },
+        {
+            backgroundImage: "url('/assets/Rectangle 17 (1).png')",
+            title: 'Water, sanitation and hygiene in Africa',
+        },
+    ]
     return (
         <div>
             <div className='px-20'>
@@ -25,27 +76,29 @@ const Resources = () => {
                         }}>
                         <span className='text-white text-[30px] md:text-[64px]'>RESOURCES</span>
                     </div>
-                    <div className='space-x-3  mb-5 mt-10'>
-                        <select placeholder='Publication Date' className='bg-[#D9D9D9] p-2 px-3 w-[304px] rounded-[10px] select outline-0'>
+                    <div className='flex flex-col md:flex-row space-y-3 items-end justify-center md:justify-start space-x-3  mb-5 mt-10'>
+                        <select disabled className='bg-[#D9D9D9] p-2 px-3 w-[304px] rounded-[10px] select outline-0'>
                             <option value="" disabled selected hidden>Publication Date</option>
-                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
-                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
-                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
-                            <option value="" className='p-2 px-3 mt-3'>Yesterday</option>
+                        </select>
+                        <select disabled className='bg-[#D9D9D9] p-2 px-3 w-[304px] rounded-[10px] select outline-0'>
+                            <option value="" disabled selected hidden>Monitoring Category</option>
+                        </select>
+                        <select disabled className='bg-[#D9D9D9] p-2 px-3 w-[304px] rounded-[10px] select outline-0'>
+                            <option value="" disabled selected hidden>Report Type</option>
                         </select>
                     </div>
                 </section>
 
                 <section className='flex flex-col items-start justify-start space-y-5 w-fit border-t-[3px] border-[#1EB53A] pt-4'>
-                    {["", "", ""].map((resource) => (
-                        <div className='flex flex-row items-center justify-center space-x-10'>
-                            <div className='text-white flex flex-col justify-end pl-5 pb-4'
+                    <div className='flex flex-row flex-wrap  items-center justify-start '>
+                        {data.map((resource) => (
+                            <div className='text-white flex flex-col justify-end pl-5 pb-4 mr-[30px] mb-[30px]'
                                 style={{
-                                    backgroundImage: "url('/assets/Feature1.png')",
+                                    backgroundImage: resource.backgroundImage,
                                     backgroundRepeat: "no-repeat", height: "334px", width: "270px",
                                     fontWeight: "800"
                                 }}>
-                                <span className='mb-7 text-[20px]'>Drinking water and hygiene in Africa</span>
+                                <span className='mb-7 text-[20px]'>{resource.title}</span>
                                 <div className='flex flex-row space-x-2 mb-2'>
                                     <img src='/assets/pdfIcon.png' alt='' />
                                     <span>English</span>
@@ -57,68 +110,8 @@ const Resources = () => {
                                     <span style={{ fontWeight: 300 }}>7.24mb</span>
                                 </div>
                             </div>
-                            <div className='text-white flex flex-col justify-end pl-5 pb-4'
-                                style={{
-                                    backgroundImage: "url('/assets/Feature2.png')",
-                                    backgroundRepeat: "no-repeat", height: "334px", width: "270px",
-                                    fontWeight: "800"
-                                }}>
-                                <span className='mb-7 text-[20px]'>
-                                    Training on drinking water, sanitation and hygiene in Africa
-                                </span>
-                                <div className='flex flex-row space-x-2 mb-2'>
-                                    <img src='/assets/pdfIcon.png' alt='' />
-                                    <span>English</span>
-                                    <span style={{ fontWeight: 300 }}>7.24mb</span>
-                                </div>
-                                <div className='flex flex-row space-x-2'>
-                                    <img src='/assets/pdfIcon.png' alt='' />
-                                    <span>French</span>
-                                    <span style={{ fontWeight: 300 }}>7.24mb</span>
-                                </div>
-                            </div>
-                            <div className='text-white flex flex-col justify-end pl-5 pb-4'
-                                style={{
-                                    backgroundImage: "url('/assets/Feature3.png')",
-                                    backgroundRepeat: "no-repeat", height: "334px", width: "270px",
-                                    fontWeight: "800"
-                                }}>
-                                <span className='mb-7 text-[20px]'>
-                                    Progress on drinking water, sanitation and hygiene in Africa
-                                </span>
-                                <div className='flex flex-row space-x-2 mb-2'>
-                                    <img src='/assets/pdfIcon.png' alt='' />
-                                    <span>English</span>
-                                    <span style={{ fontWeight: 300 }}>7.24mb</span>
-                                </div>
-                                <div className='flex flex-row space-x-2'>
-                                    <img src='/assets/pdfIcon.png' alt='' />
-                                    <span>French</span>
-                                    <span style={{ fontWeight: 300 }}>7.24mb</span>
-                                </div>
-                            </div>
-                            <div className='text-white flex flex-col justify-end pl-5 pb-4'
-                                style={{
-                                    backgroundImage: "url('/assets/Feature4.png')",
-                                    backgroundRepeat: "no-repeat", height: "334px", width: "270px",
-                                    fontWeight: "800"
-                                }}>
-                                <span className='mb-7 text-[20px]'>
-                                    Water, sanitation and hygiene in Africa
-                                </span>
-                                <div className='flex flex-row space-x-2 mb-2'>
-                                    <img src='/assets/pdfIcon.png' alt='' />
-                                    <span>English</span>
-                                    <span style={{ fontWeight: 300 }}>7.24mb</span>
-                                </div>
-                                <div className='flex flex-row space-x-2'>
-                                    <img src='/assets/pdfIcon.png' alt='' />
-                                    <span>French</span>
-                                    <span style={{ fontWeight: 300 }}>7.24mb</span>
-                                </div>
-                            </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                     <nav aria-label="..." className='self-end mt-5'>
                         <ul className="pagination">
                             <li className="page-item disabled">
