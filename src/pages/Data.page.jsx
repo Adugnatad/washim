@@ -14,8 +14,8 @@ const Data = () => {
                     <p>Est nesciunt labore ea minus vitae et velit nihil qui repudiandae quisquam sed fugiat laborum. Ut galisum voluptatem et voluptas numquam qui rerum quis est asperiores debitis qui laudantium veniam. Qui voluptatem expedita a quidem exercitationem ea explicabo omnis aut voluptate neque vel perferendis sint et ratione rerum hic aspernatur rerum.</p>
                 </div>
                 <div className='flex flex-col items-start justify-between space-y-20  '>
-                    <div className='flex flex-col lg:flex-row items-center justify-center space-x-5 space-y-3'>
-                        <div className='flex flex-col items-end lg:w-1/3'>
+                    <div className='flex flex-col lg:flex-row items-center justify-center mr-[40px] mb-[30px]'>
+                        <div className='flex flex-col items-end lg:w-1/3 mb-[20px]'>
                             <div className=' w-[358px] h-[193px] rounded-[16px] text-white font-bold'
                                 style={{
                                     backgroundImage: "url('/assets/drinkingFeature.png')",
@@ -29,13 +29,13 @@ const Data = () => {
                                 <span className='text-[17px] text-[#fff] font-medium'> Communities </span>
                             </div>
                         </div>
-                        <div className='lg:w-2/3 flex flex-col justify-center '>
+                        <div className='lg:w-2/3 flex flex-col justify-center mb-[20px] mx-[30px]'>
                             <h2 className='font-bold text-[25px] md:text-[33px]'>Drinking water and hygiene in
                                 Africa </h2>
-                            <div className=''>
-                                <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
+                            <div className='space-y-2 font-medium'>
                                 <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi.
                                     Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
+                                <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
                             </div>
                         </div>
                         <div className='flex flex-col items-center justify-start space-y-2 lg:mt-5 text-white text-[15px] md:text-[18px] font-semibold w-1/3'>
@@ -43,8 +43,8 @@ const Data = () => {
                             <button className='bg-gradient-to-b from-[#1BAAFD] to-[#00507E] py-2 px-5 rounded-[10px] w-[230px]'>EXPLORE DATA</button>
                         </div>
                     </div>
-                    <div className='flex flex-col lg:flex-row items-center justify-center space-x-5 space-y-3'>
-                        <div className='flex flex-col items-end lg:w-1/3'>
+                    <div className='flex flex-col lg:flex-row items-center justify-center mr-[40px] mb-[30px]'>
+                        <div className='flex flex-col items-end lg:w-1/3 mb-[30px]'>
                             <div className=' w-[358px] h-[193px] rounded-[16px] text-white font-bold'
                                 style={{
                                     backgroundImage: "url('/assets/trainingFeature.png')",
@@ -58,13 +58,13 @@ const Data = () => {
                                 <span className='text-[17px] text-[#fff] font-medium'> Communities </span>
                             </div>
                         </div>
-                        <div className='lg:w-2/3 flex flex-col justify-center '>
-                            <h2 className='font-bold text-[25px] md:text-[33px]'>Training on drinking water,
+                        <div className='lg:w-2/3 flex flex-col justify-center mb-[20px] mx-[30px]'>
+                            <h2 className='font-bold text-[25px] md:text-[33px] '>Training on drinking water,
                                 sanitation and hygiene in Africa  </h2>
-                            <div className=''>
-                                <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
+                            <div className='space-y-2 font-medium'>
                                 <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi.
                                     Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
+                                <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
                             </div>
                         </div>
                         <div className='flex flex-col items-center justify-start space-y-2 lg:mt-5 text-white text-[15px] md:text-[18px] font-semibold w-1/3'>
@@ -72,8 +72,8 @@ const Data = () => {
                             <button className='bg-gradient-to-b from-[#1BAAFD] to-[#00507E] py-2 px-5 rounded-[10px] w-[230px]'>EXPLORE DATA</button>
                         </div>
                     </div>
-                    <div className='flex flex-col lg:flex-row items-center justify-center space-x-5 space-y-3'>
-                        <div className='flex flex-col items-end lg:w-1/3'>
+                    <div className='flex flex-col lg:flex-row items-center justify-center mr-[40px] mb-[30px]'>
+                        <div className='flex flex-col items-end lg:w-1/3 mb-[30px]'>
                             <div className=' w-[358px] h-[193px] rounded-[16px] text-white font-bold'
                                 style={{
                                     backgroundImage: "url('/assets/progressFeature.png')",
@@ -87,13 +87,13 @@ const Data = () => {
                                 <span className='text-[17px] text-[#fff] font-medium'> Communities </span>
                             </div>
                         </div>
-                        <div className='lg:w-2/3 flex flex-col justify-center '>
+                        <div className='lg:w-2/3 flex flex-col justify-center mb-[20px] mx-[30px]'>
                             <h2 className='font-bold text-[25px] md:text-[33px]'>Progress on drinking water,
                                 sanitation and hygiene in Africa  </h2>
-                            <div className=''>
-                                <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
+                            <div className='space-y-2 font-medium'>
                                 <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi.
                                     Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
+                                <p>Lorem ipsum dolor sit amet. Id molestias quisquam aut quis molestiae sed excepturi molestiae qui internos quam nam eius tempora eum voluptatibus iste est porro nisi. </p>
                             </div>
                         </div>
                         <div className='flex flex-col items-center justify-start space-y-2 lg:mt-5 text-white text-[15px] md:text-[18px] font-semibold w-1/3'>
